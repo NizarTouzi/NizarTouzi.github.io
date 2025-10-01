@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: rgb(0, 62, 92);
+	background-color: rgb(86, 1, 141);
 	color: white;
 	text-align: center;	
 	margin-top: 60px;
@@ -14,7 +14,7 @@ header {
 }
 
 footer {
-	background-color: rgb(0, 62, 92);
+	background-color: rgb(86, 1, 141);
 	color: white;
 	margin-bottom: 12px;
 	padding-top: 4px;
@@ -36,7 +36,7 @@ nav > ul > li {
 }
 
 h1 {
-	color: rgb(0, 62, 92);
+	color: rgb(86, 1, 141);
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 50px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-	color: rgb(0, 62, 92);
+	color: rgb(86, 1, 141);
 	font-size: 24px;
 }
 
@@ -76,13 +76,13 @@ a:hover {
 }
 
 #navfooter {
-	background-color: rgb(0, 62, 92);
+	background-color: rgb(86, 1, 141);
 	height:16px;
 	margin-bottom: 40px;
 }
 
 .pfooter{
-	background-color: rgb(0, 62, 92);
+	background-color: rgb(86, 1, 141);
 	height:10px;
 	margin-bottom: 40px;
 	margin-top: 40px;
@@ -199,5 +199,6 @@ ul {
 		width:40px;
 	}
 	
+
 
 }
