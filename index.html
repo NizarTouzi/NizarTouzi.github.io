@@ -18,7 +18,7 @@
   #theader {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;       /* keeps proportions stable */
+    table-layout: fixed;
   }
 
   td {
@@ -35,7 +35,7 @@
   .logo-right {
     width: 360px;
     height: auto;
-    padding-right: 140px; /* pull inside more strongly */
+    margin-right: 40px; /* pull image inside the violet band */
   }
 
   /* Center text */
@@ -43,7 +43,7 @@
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
-    font-size: 32px;      /* double size */
+    font-size: 32px; /* doubled text size */
     line-height: 1.3;
     font-weight: bold;
     padding: 0 40px;
@@ -51,6 +51,27 @@
 </style>
 
 <header>
+  <table id="theader">
+    <tr>
+      <!-- Left logo -->
+      <td style="width:25%; text-align:left;">
+        <img src="NYUTandon-logo.jpg" class="logo-left" alt="NYUTandon-logo" />
+      </td>
+
+      <!-- Center text -->
+      <td class="name" style="width:50%;">
+        Nizar Touzi<br /> <br />
+        New York University<br />
+        Tandon School of Engineering
+      </td>
+
+      <!-- Right logo -->
+      <td style="width:25%; text-align:right;">
+        <img src="NYU-logo.png" class="logo-right" alt="NYU-logo" />
+      </td>
+    </tr>
+  </table>
+</header>
   <table id="theader">
     <tr>
       <!-- Left logo -->
@@ -346,6 +367,7 @@ Application to Mean Field Control with Common Noise,</a><span class="journal"></
 </body>
 
 </html>
+
 
 
 
