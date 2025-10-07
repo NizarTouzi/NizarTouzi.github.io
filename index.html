@@ -18,7 +18,7 @@
   #theader {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;       /* ensures equal spacing behavior */
+    table-layout: fixed;       /* keeps proportions stable */
   }
 
   td {
@@ -29,14 +29,13 @@
   .logo-left {
     width: 180px;
     height: auto;
-    margin-left: 60px; /* spacing from left margin */
+    margin-left: 60px; /* left spacing */
   }
 
   .logo-right {
     width: 360px;
     height: auto;
-    margin-right: 0px; /* no longer pushing it outside */
-    padding-right: 60px; /* instead, pull it inward */
+    padding-right: 100px; /* pull inside more strongly */
   }
 
   /* Center text */
@@ -47,7 +46,7 @@
     font-size: 32px;      /* double size */
     line-height: 1.3;
     font-weight: bold;
-    padding: 0 40px;      /* ensures the text is visually centered */
+    padding: 0 40px;
   }
 </style>
 
@@ -67,7 +66,7 @@
       </td>
 
       <!-- Right logo -->
-      <td style="width:25%; text-align:right; padding-right:40px;">
+      <td style="width:25%; text-align:right;">
         <img src="NYU-logo.png" class="logo-right" alt="NYU-logo" />
       </td>
     </tr>
@@ -347,6 +346,7 @@ Application to Mean Field Control with Common Noise,</a><span class="journal"></
 </body>
 
 </html>
+
 
 
 
