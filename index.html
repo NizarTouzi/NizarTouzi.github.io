@@ -10,21 +10,36 @@
 <body>
 <div id="container">
 	<style>
-  /* proportional scaling for both logos */
-  .logo-left {
-    width: 150px;  /* half the size of the right one */
-    height: auto;
+  header {
+    background-color: #57068C; /* NYU violet */
+    padding: 8px 0;           /* thinner vertical padding */
   }
-  .logo-right {
-    width: 400px;  /* larger logo */
-    height: auto;
-  }
+
   #theader {
     width: 100%;
+    border-collapse: collapse;
   }
+
+  td {
+    vertical-align: middle;
+  }
+
+  .logo-left {
+    width: 180px;  /* smaller left logo */
+    height: auto;
+  }
+
+  .logo-right {
+    width: 360px;  /* larger right logo */
+    height: auto;
+  }
+
   .name {
     text-align: center;
-    vertical-align: middle;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.3;
   }
 </style>
 
@@ -38,7 +53,7 @@
 
       <!-- Center text -->
       <td class="name">
-        <strong>Nizar Touzi</strong><br /><br />
+        <strong>Nizar Touzi</strong><br />
         <strong>New York University</strong><br />
         <strong>Tandon School of Engineering</strong>
       </td>
@@ -324,6 +339,7 @@ Application to Mean Field Control with Common Noise,</a><span class="journal"></
 </body>
 
 </html>
+
 
 
 
