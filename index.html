@@ -10,25 +10,42 @@
 <body>
 <div id="container">
 	<style>
-  .logo {
-    width: 300px;     /* or use % for flexible scaling, e.g., width: 25%; */
-    height: auto;     /* keeps proportions correct */
+  /* proportional scaling for both logos */
+  .logo-left {
+    width: 200px;  /* half the size of the right one */
+    height: auto;
+  }
+  .logo-right {
+    width: 400px;  /* larger logo */
+    height: auto;
+  }
+  #theader {
+    width: 100%;
+  }
+  .name {
+    text-align: center;
+    vertical-align: middle;
   }
 </style>
 
 <header>
-  <table id="theader" style="width:100%;">
+  <table id="theader">
     <tr>
-      <td style="width:10%; text-align:left;">
-        <img src="NYUTandon-logo.jpg" class="logo" alt="NYUTandon-logo" />
+      <!-- Left logo -->
+      <td style="width:20%; text-align:left;">
+        <img src="NYUTandon-logo.jpg" class="logo-left" alt="NYUTandon-logo" />
       </td>
-      <td class="name" style="text-align:center;">
+
+      <!-- Center text -->
+      <td class="name">
         <strong>Nizar Touzi</strong><br /><br />
         <strong>New York University</strong><br />
         <strong>Tandon School of Engineering</strong>
       </td>
+
+      <!-- Right logo -->
       <td style="width:20%; text-align:right;">
-        <img src="NYU-logo.png" class="logo" alt="NYU-logo" />
+        <img src="NYU-logo.png" class="logo-right" alt="NYU-logo" />
       </td>
     </tr>
   </table>
@@ -307,6 +324,7 @@ Application to Mean Field Control with Common Noise,</a><span class="journal"></
 </body>
 
 </html>
+
 
 
 
